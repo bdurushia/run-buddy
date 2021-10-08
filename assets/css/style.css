@@ -174,7 +174,7 @@ section {
 
 /* What we do / what you do section style */
 .section-title {
-    font-size: 3.438rem;
+    font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
@@ -186,7 +186,7 @@ section {
     border-color: #fce138;
 }
 
-.primary-border {
+.secondary-border {
     border-color: #39a6b2;
 }
 
@@ -282,3 +282,30 @@ section {
 /* ^^^ UTILITY ELEMENTS ^^^ */
 
 /* Meet The Trainers Style End */
+
+/* Contact Style Start */
+
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px; 
+}
+
+.contact-info div {
+    display: inline-block;
+    width: 410px;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+/* Contact Style END */
