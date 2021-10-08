@@ -271,7 +271,7 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-
+/* vvv UTILITY ELEMENTS VVV */
 .text-left {
     text-align: left;
 }
@@ -279,5 +279,6 @@ section {
 .text-right {
     text-align: right;
 }
+/* ^^^ UTILITY ELEMENTS ^^^ */
 
 /* Meet The Trainers Style End */
