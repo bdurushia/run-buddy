@@ -171,14 +171,25 @@ section {
     text-align: center;
 }
 
-.intro h2 {
+/* What we do / what you do section style */
+.section-title {
     font-size: 3.438rem;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #fce138;
     display: inline-block;
+    border-bottom: 3px solid;
 }
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.primary-border {
+    border-color: #39a6b2;
+}
+
+/* What we do / what you do section style */
 
 .intro p {
     line-height: 1.7;
@@ -189,3 +200,32 @@ section {
 }
 
 /* What We Do Style End */
+
+/* What You Do Style Start */
+
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 2.875rem;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 1.438rem;
+}
+
+.steps span {
+    font-size: 2.375rem;
+}
+
+/* What You Do Style End */
