@@ -133,7 +133,7 @@ section {
 }
 
 .hero-form h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin: 0;
 }
 
@@ -148,7 +148,7 @@ section {
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
-    font-size: 1rem;
+    font-size: 1em;
     padding: 10px 20px;
     border: none;
 }
@@ -157,7 +157,7 @@ section {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
-    font-size: 1rem;
+    font-size: 1em;
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
@@ -167,6 +167,25 @@ section {
 
 /* What We Do Style Start */
 
+.intro {
+    text-align: center;
+}
 
+.intro h2 {
+    font-size: 3.438rem;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #fce138;
+    display: inline-block;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
 
 /* What We Do Style End */
