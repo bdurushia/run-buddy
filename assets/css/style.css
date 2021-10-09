@@ -110,6 +110,7 @@ footer a {
     -moz-animation: fadein 4.5s;
     -o-animation: fadein 4.5s;
     animation: fadein 4.5s;
+    /* animation-direction: alternate; */
 }
 
 @keyframes fadein {
