@@ -19,4 +19,8 @@ https://bdurushia.github.io/run-buddy/
 ---
 
 ## Contribution
-Made with ❤️ by Bryan Durushia, <bdurushia@gmail.com
+Made with ❤️ by Bryan Durushia, bdurushia@gmail.com
+
+---
+
+### &copy;2019 Run Buddy, Inc
