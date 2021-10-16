@@ -18,5 +18,5 @@ https://bdurushia.github.io/run-buddy/
 
 ---
 
-## Contribution
+### Contribution
 Made with ❤️ by Bryan Durushia, <bdurushia@gmail.com
