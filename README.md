@@ -14,7 +14,7 @@ A website that offers fitness training services.
 ---
 
 ## Website
-<https://bdurushia.github.io/run-buddy/
+https://bdurushia.github.io/run-buddy/
 
 ---
 
