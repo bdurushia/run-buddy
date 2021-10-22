@@ -86,6 +86,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
 }
 
 header nav {
@@ -121,8 +128,11 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    font-size: 1.4rem;
-}
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
 
 /* Footer Styling */
 
@@ -160,11 +170,12 @@ section {
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
 }
 
 .hero-cta {
@@ -219,8 +230,12 @@ section {
 }
 
 .hero-form button:hover {
+    background-color: #39a6b2;  
+  }
+
+/* .hero-form button:hover {
     background-color: #043550;
-}
+} */
 
 .form-input {
     border: 1px solid #024e76;
@@ -231,7 +246,13 @@ section {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
 }
+
+.form-input:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+  }
 
 /* End Hero Style */
 
@@ -279,11 +300,14 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
 }
 
 .step-info {
@@ -428,6 +452,11 @@ anything with a class of .contact-info " */
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255,255,255, 0.8)
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1)
 }
 
 .contact-form button {
@@ -442,9 +471,14 @@ anything with a class of .contact-info " */
 }
 
 .contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
+  }
+
+/* .contact-form button:hover {
     background-color: #e8eb36;
     color: #043853;
-}
+} */
 
 /* Contact Style END */
 
@@ -459,6 +493,7 @@ anything with a class of .contact-info " */
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
+        position: relative;
         padding-bottom: 0;
         justify-content: center;
     }
